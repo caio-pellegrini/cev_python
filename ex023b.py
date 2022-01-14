@@ -1,0 +1,7 @@
+num = input('Digite um número entre 0 e 9999: ')
+n = num.zfill(4)
+print(f'Analisando o número {num}')
+print(f'Unidade: {n[3]}')
+print(f'Dezena: {n[2]}')
+print(f'Centena: {n[1]}')
+print(f'Milhar: {n[0]}')
